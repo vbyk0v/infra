@@ -8,10 +8,10 @@ ssh-keygen -t rsa -b 4096 -C "username_2@domain_2"
 Host domain_1
 	HostName domain_1
 	User username_1
-	IdentityFile pub_key_1
+	IdentityFile private_key_1
 	
 Host domain_2
 	HostName domain_2
 	User username_2
-	IdentityFile pub_key_2
+	IdentityFile private_key_2
 ```
