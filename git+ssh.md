@@ -15,3 +15,8 @@ Host domain_2
 	User username_2
 	IdentityFile private_key_2
 ```
+add local git cert (ubuntu):
+```
+sudo cp cert.crt /usr/share/ca-certificates/
+sudo update-ca-certificates
+```
